@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rethink</title>
+</head>
+<body>
+  <script>
+    const pessoas = [
+      {name: "Fabiana Araújo", age: 23},
+      {name: "Gabriel Gomes", age: 25},
+      {name: "Fernando Henrique", age: 17},
+      {name: "Ana Luiza", age: 2},
+      {name: "Geralda do Nascimento", age: 93},
+      {name: "Miguel Souza", age: 70},
+      {name: "Antonio Miguel", age: 69},
+    ]
+    function insereId() {
+      for (let i = 0; i < pessoas.length; i++) {
+        pessoas[i].id = i+1;
+      }
+    }
+    insereId();
+    console.log(pessoas);
+  </script>
+</body>
+</html>

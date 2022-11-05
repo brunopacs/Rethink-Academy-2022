@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rethink</title>
+  <style>
+    body{
+	    font: 16px "Times New Roman",Times,serif;
+    }
+    div{
+      margin-bottom: 1em;
+    }
+    fieldset{
+	    padding: 1em; background: #f8f8f8; margin: 10px 0px;
+	    border: 1px solid #ccc;
+    }
+    label{
+	    cursor: pointer;
+    }
+    textarea{
+	    width: 500px; height:100px; resize: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulário</h1>
+		<form>
+			<fieldset id="dados">
+				<legend>Preencha os campos abaixo</legend>
+				<div>
+					<label for="nome">Nome:</label><br>
+					<input type="text" name="nome" id="nome">
+				</div>
+				<div>
+					<label for="idade">Idade:</label><br>
+					<input type="number" name="idade" id="idade">
+				</div>
+				<div>
+					<label for="profissao">Profissao:</label><br>
+					<input type="text" name="profissao" id="profissao">
+				</div>
+				<div>
+					<label for="email">Email:</label><br>
+					<input type="email" name="email" id="email">
+				</div>
+				<div>
+					<label for="telefone">Telefone:</label><br>
+					<input type="text" name="telefone" id="telefone">
+				</div>
+				<div>
+					<label for="data_preenchimento">Data de preenchimento:</label><br>
+					<input type="date" name="data_preenchimento" id="data_preenchimento">
+				</div>
+        <div>
+          <input type="submit" value="Enviar">
+        </div>
+			</fieldset>
+		</form>
+</body>
+</html>
