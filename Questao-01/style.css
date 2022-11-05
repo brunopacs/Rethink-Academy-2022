@@ -1,4 +1,24 @@
 body{
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.flex-item {
+  height: 30rem;
+  width: 25rem;
+  background-color: black;
+}
+
+
+
+/*
+body{
   font: 16px "Times New Roman",Times,serif;
 }
 div{
@@ -14,3 +34,4 @@ label{
 textarea{
   width: 500px; height:100px; resize: none;
 }
+*/
