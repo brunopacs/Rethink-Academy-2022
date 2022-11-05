@@ -1,0 +1,16 @@
+body{
+  font: 16px "Times New Roman",Times,serif;
+}
+div{
+  margin-bottom: 1em;
+}
+fieldset{
+  padding: 1em; background: #f8f8f8; margin: 10px 0px;
+  border: 1px solid #ccc;
+}
+label{
+  cursor: pointer;
+}
+textarea{
+  width: 500px; height:100px; resize: none;
+}
