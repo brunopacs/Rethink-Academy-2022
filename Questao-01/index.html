@@ -4,28 +4,69 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
   <title>Rethink</title>
-  <style>
-    body{
-	    font: 16px "Times New Roman",Times,serif;
-    }
-    div{
-      margin-bottom: 1em;
-    }
-    fieldset{
-	    padding: 1em; background: #f8f8f8; margin: 10px 0px;
-	    border: 1px solid #ccc;
-    }
-    label{
-	    cursor: pointer;
-    }
-    textarea{
-	    width: 500px; height:100px; resize: none;
-    }
-  </style>
 </head>
 <body>
-  <h1>Formulário</h1>
+	<div class="flex-container">
+		<div class="flex-item">
+
+			<form>
+				<fieldset id="dados">
+					<legend>Preencha os campos abaixo</legend>
+					<div class="forms">
+						<label for="nome">Nome:</label>
+						<input type="text" name="nome" id="nome">
+					</div>
+					<div class="forms">
+						<label for="idade">Idade:</label>
+						<input type="number" name="idade" id="idade">
+					</div>
+					<div class="forms">
+						<label for="profissao">Profissao:</label>
+						<input type="text" name="profissao" id="profissao">
+					</div>
+					<div class="forms">
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div class="forms">
+						<label for="telefone">Telefone:</label>
+						<input type="text" name="telefone" id="telefone">
+					</div>
+					<div class="forms">
+						<label for="data_preenchimento">Data de preenchimento:</label>
+						<input type="date" name="data_preenchimento" id="data_preenchimento">
+					</div>
+					<div class="btn">
+						<input type="submit" value="Enviar">
+					</div>
+				</fieldset>
+			</form>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--
 		<form>
 			<fieldset id="dados">
 				<legend>Preencha os campos abaixo</legend>
@@ -58,5 +99,6 @@
         </div>
 			</fieldset>
 		</form>
+		-->
 </body>
 </html>
