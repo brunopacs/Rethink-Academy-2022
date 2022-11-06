@@ -1,18 +1,38 @@
 body{
-  height: 100%;
-  width: 100%;
   background-color: blueviolet;
 }
 .flex-container{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
 }
 .flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 30rem;
   width: 25rem;
-  background-color: black;
+}
+.forms {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 10px;
+  border: 1px solid rgb(18, 43, 48);
+  border-radius: 100px;
+}
+.btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 100px;
 }
 
 
